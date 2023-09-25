@@ -1,0 +1,6 @@
+region          = "eu-central-1"
+bucket          = "YOURACCOUNTID-terraform-state"
+dynamodb_table  = "YOURACCOUNTID-terraform-state"
+key             = "terraform.tfstate"
+encrypt         = "true"
+profile         = "elastic2ls-dev"
