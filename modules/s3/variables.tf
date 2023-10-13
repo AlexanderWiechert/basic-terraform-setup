@@ -17,3 +17,7 @@ variable "account_id" {
 variable "tags" {
   type = map(string)
 }
+
+variable "project_name" {
+  type = string
+}

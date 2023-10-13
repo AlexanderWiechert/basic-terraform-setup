@@ -1,4 +1,5 @@
 profile                      = "elastic2ls-dev"
 region                       = "eu-central-1"
-environment                  = "devdev.tfvars"
+environment                  = "prod"
 account_id                   = "YOURACCOUNTID"
+project_name                 = "basic-tf-setup"

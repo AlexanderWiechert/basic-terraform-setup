@@ -14,6 +14,7 @@ module "s3" {
   account_id  = var.account_id
   profile     = var.profile
   environment = var.environment
+  project_name = var.project_name
   tags        = merge (
     var.tags
   )
